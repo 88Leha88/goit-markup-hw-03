@@ -318,7 +318,7 @@ ul,ol{
 /* контактні данні */
 
 
-.list:not(:last-child){
+.footer-list:not(:last-child){
     margin-bottom: 9px;
 }
 
@@ -355,6 +355,10 @@ ul,ol{
 /* сторінка портфоліо */
 /* шапка та підвал такіж самі */
 
+.portfolio-header{
+    border-bottom: 1px solid #ECECEC;
+}
+
 /* кнопка */
 
 
@@ -366,7 +370,20 @@ ul,ol{
     border-radius: 4px;
 }
 
+.page-portfolio{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.page-portfolio-container{
+    justify-content: center;
+    display: flex;
+    column-gap: 8px;
+}
+
 .page-portfolio-btn{
+    padding: 6px 22px;
+    border: none;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -380,6 +397,22 @@ ul,ol{
 
 /* фильтри та карточки */
 
+.item-card{
+    flex-basis: calc(100%-60px) / 3;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 34px;
+}
+
+.data-portfolio-card{
+    padding: 20px 24px;
+}
+
+
 .page-portfolio-card:hover,
 .page-portfolio-card:focus
 
@@ -392,6 +425,7 @@ img{
 }
 
 .page-portfolio-title{
+    margin-bottom: 4px;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
