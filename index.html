@@ -14,27 +14,31 @@
 <body class="main">
     <!--шапка з навигаціей-->
     <header class="header">
-        <div class="container">
-            <nav> 
+        <div class="container header-page header-container">
+            <nav class="header-container"> 
                 <a lang="en" class="link header-logo-web" href="#">Web<span class="header-logo-studio">Studio</span></a>   
-                <ul class="list">
+                <ul class="list header-container">
                     <li><a class="link navigate" href="./index.html">Студия</a></li>
                     <li><a class="link navigate" href="./portfolio.html" target="_blank">Портфолио</a></li>
                     <li><a class="link navigate" href="">Контакты</a></li>
                 </ul>
-                <ul class="list">
-                    <li><a class="link header-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a class="link header-contacts" href="tel:+380961111111">+38 096 111 11 11</a></li>
-                </ul>
-            </nav>  
+            </nav>    
+            <ul class="list header-container">
+                <li><a class="link header-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="link header-contacts" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
+              
         </div>
         
     </header>
     <main>
         <!--блок герой-->
         <section class="hero">
-            <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-            <button class="hero-button" type="button">Замовити послугу</button>
+            <div class="container hero-box">
+                <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+                <button class="hero-button" type="button">Замовити послугу</button>
+            </div>
+            
         </section>
         <!--особливості-->
         <section class="features-">
