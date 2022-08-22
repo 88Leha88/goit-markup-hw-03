@@ -318,8 +318,10 @@ ul,ol{
 /* контактні данні */
 
 
-.footer-list:not(:last-child){
-    margin-bottom: 9px;
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
 }
 
 .footer-adress:hover,
@@ -379,6 +381,7 @@ ul,ol{
     justify-content: center;
     display: flex;
     column-gap: 8px;
+    margin-bottom: 50px;
 }
 
 .page-portfolio-btn{
@@ -405,7 +408,6 @@ ul,ol{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    padding-top: 34px;
 }
 
 .data-portfolio-card{
